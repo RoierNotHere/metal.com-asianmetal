@@ -21,7 +21,7 @@ class handler(BaseHTTPRequestHandler):
         URL_TARGET = 'https://www.metal.com/es/niobium-tantalum#NiobioTantalio'
         
         # 2 horas en segundos (60 seg * 60 min * 2) = 7200 segundos
-        TIEMPO_LIMITE = 7200 
+        TIEMPO_LIMITE = 86400 
         ahora = time.time()
 
         # 1. VERIFICACIÓN DEL TIMER
